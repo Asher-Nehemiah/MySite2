@@ -54,6 +54,7 @@ a{
 
 a:hover{
   text-decoration: underline;
+
 }
 
 .topContainer{
@@ -132,4 +133,42 @@ a:hover{
   width: 20%;
   float:left;
   margin-right: 30px;
+}
+
+.html{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.javascript{
+  width: 20%;
+  float:left;
+  margin-right: 30px;
+}
+
+
+.piggame{
+  width: 22.5%;
+  float:left;
+  margin-right: 30px;
+}
+
+.drumkit {
+  width: 22.5%;
+  float: right;
+  margin-left: 30px;
+}
+
+.tindog{
+  width: 22.5%;
+  float:left;
+  margin-right: 30px;
+}
+
+
+.passcheck{
+  width: 22.5%;
+  float: right;
+  margin-left: 30px;
 }
