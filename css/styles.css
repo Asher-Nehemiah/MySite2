@@ -65,6 +65,52 @@ a:hover{
 
 }
 
+.skills {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  padding: 10px;
+}
+
+.content-table{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1.2em;
+  min-width: 750px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+.content-table thead tr{
+  background-color: #e43f5a;
+  color: #dae1e7;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td{
+  padding: 12px 15px;
+}
+
+.content-table tbody tr{
+  border-bottom: 1px solid #dae1e7;
+  text-align: left;
+}
+
+.content-table tbody tr:hover{
+  border: 2px solid #e43f5a;
+  font-weight: bolder;
+}
+
+.content-table tbody tr:nth-of-type(even){
+  background-color: #f3f3f3;
+}
+
+.tableimg{
+  width: 35px;
+}
+
 .skill-row {
    width:50%;
    margin: 100px auto 100px auto;
@@ -100,6 +146,15 @@ a:hover{
 
 .profile img {
   margin-top: 40px;
+}
+
+.screenshot {
+  width: 40%;
+  position: absolute;
+  right: auto;
+  left: auto;
+  margin: 20px 20px;
+
 }
 
 
